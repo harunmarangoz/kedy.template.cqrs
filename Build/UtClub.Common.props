@@ -1,0 +1,21 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>disable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+    <PropertyGroup>
+        <Product>Kedy.Cqrs.Api.Template</Product>
+        <RepositoryUrl>https://github.com/harunmarangoz/kedy.cqrs.api.template</RepositoryUrl>
+        <RepositoryType>Git</RepositoryType>
+    </PropertyGroup>
+    <ItemGroup>
+        <Using Include="System"/>
+        <Using Include="System.Collections.Generic"/>
+        <Using Include="System.IO"/>
+        <Using Include="System.Text"/>
+        <Using Include="System.Linq"/>
+        <Using Include="System.Threading"/>
+        <Using Include="System.Threading.Tasks"/>
+    </ItemGroup>
+</Project>
